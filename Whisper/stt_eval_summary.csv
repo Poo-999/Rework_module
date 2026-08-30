@@ -1,0 +1,7 @@
+﻿Metric,Value,Description
+Total Reference Words (N),64,จำนวนคำทั้งหมดในเฉลย
+Hits / Correct (C),53,คำที่ถอดเสียงได้ถูกต้อง
+Substitutions (S),11,คำที่สะกดผิดหรือแทนที่ด้วยคำอื่น
+Deletions (D),0,คำที่ตกหล่นไป
+Insertions (I),13,คำที่โมเดลใส่เกินมา
+Word Error Rate (WER %),37.50%,อัตราความผิดพลาดระดับคำ
