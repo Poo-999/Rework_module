@@ -1,0 +1,297 @@
+{
+  "video_path": "D:\\Modeling\\Data\\บทสัมภาษณ์\\Interview.m4a",
+  "audio_path": "D:\\Modeling\\Data\\บทสัมภาษณ์\\Interview.m4a",
+  "full_transcript": "สวัสดีครับ ผมชื่อจักริน กวีพันธ์ครับ ประชุบัน ผมเป็นนักพัฒนา Software ที่ Focused ทั้งการสร้างระบบ Full Stack และงาน Data, Machine Learning ครับ จุดแข็งหลักของผมคือการเชื่อมยุงระบบฝั่ง Frontend, Backend และ Database เข้าด้วยกัน รวยมีประสบการการทำงานกับ Flutter สำหรับ Mobile App, Python สำหรับงาน Data Science และการสร้างโมเดล Machine Learning ร่วมถึงภาษาฟัง Backend อย่าง C Sharp และการจัดการฐานข้อมูลอย่าง SQL, Oracle ครับ สิ่งที่ทำให้ผมสนุกกับการทำงาน คือการได้หยิบจุดจริงมาเปลี่ยนเป็น solution ที่จับต้องได้ ตั้งแต่การวิกลอข้อมูล การ train โมเดล ไปจนถึงการขึ้นเป็น Application ให้ผู้ใช้งานเข้าถึงได้ง่ายครับ มี project หนึ่งที่ผมทำโมเดล พยากรข้อมูลสภาพเวลโรบ Time Series Forecasting เพื่อนำไปแสดงผลบน Web Application ครับ ความท้าทายสำคัญคือ ข้อมูลต่างต้นมีความผลผลสูง และ missing value ก่อนข้างเยอะ ทำให้ช่วงแรกโมเดลเกิด error สูงมาก ผมแก้ปัญหาด้วยการทำ data preprocessing ใหม่อย่างเป็นระบบ ทั้งการ clean ข้อมูล การทำ feature engineering เพื่อดึงตัวแปรดที่สำพันธ์กับเวลา และทดลองเพียบเทียบ algorithm หลายตัว เพื่อหาโมเดลที่แม่นยำและไม่ overfit จากนั้น ถึงนำโมเดลไป deploy ผ่าน Web UI ให้ผู้ใช้งานสามารถกลอก parameter แล้ว เห็นผลเผยากรได้ทันที โปรเจคนี้ทำให้ผมเข้าใจทั้งกระววนการ prepare data การปรับแต่งโมเดล และการคำดึงถึง user experience ในการแสดงผลข้อมูลครับ ผมมองว่าในสายงาน technology การเปลี่ยนแปลงเครื่องมือเป็นเรื่องปกติครับ วิธีการของผมคือนิ้นตามความเข้าใจ fundamental ของเครื่องมือ เช่น ถ้าต้องการใช้ framework ใหม่ ผมจะดู architecture และ data flow ของมันเป็นอันดับแรก จากนั้นลองสร้างจนเล็ก ๆ เพื่อทำ prototype ทดสอบทันที ส่วนการทำงานร่วมกับ team ผมให้ความสำคัญกับการสื่อสารที่ตรงประเด็น Clear and Concise ไม่ลังเลที่จะถามเมื่อติดปัญหาเชิงโคงสร้าง และคอย update ความคืบหน้าร่วมถึงจุดที่ติดคัด ให้ทุกคนเห็นภาพตรงกันเสมอ เพื่อให้งานเดินหน้าต่อได้ด้วยไม่เสีย ขอบคุณมากสำหรับโอกาสในวันนี้ครับ",
+  "segments": [
+    {
+      "id": 0,
+      "start": 3.73,
+      "end": 7.73,
+      "text": "สวัสดีครับ ผมชื่อจักริน กวีพันธ์ครับ",
+      "avg_logprob": -0.212,
+      "no_speech_prob": 0.395
+    },
+    {
+      "id": 1,
+      "start": 7.73,
+      "end": 15.73,
+      "text": "ประชุบัน ผมเป็นนักพัฒนา Software ที่ Focused ทั้งการสร้างระบบ Full Stack และงาน Data, Machine Learning ครับ",
+      "avg_logprob": -0.212,
+      "no_speech_prob": 0.395
+    },
+    {
+      "id": 2,
+      "start": 15.73,
+      "end": 21.95,
+      "text": "จุดแข็งหลักของผมคือการเชื่อมยุงระบบฝั่ง Frontend, Backend และ Database เข้าด้วยกัน",
+      "avg_logprob": -0.212,
+      "no_speech_prob": 0.395
+    },
+    {
+      "id": 3,
+      "start": 21.95,
+      "end": 29.43,
+      "text": "รวยมีประสบการการทำงานกับ Flutter สำหรับ Mobile App, Python สำหรับงาน Data Science",
+      "avg_logprob": -0.212,
+      "no_speech_prob": 0.395
+    },
+    {
+      "id": 4,
+      "start": 29.43,
+      "end": 35.43,
+      "text": "และการสร้างโมเดล Machine Learning ร่วมถึงภาษาฟัง Backend อย่าง C Sharp",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.753
+    },
+    {
+      "id": 5,
+      "start": 35.43,
+      "end": 40.98,
+      "text": "และการจัดการฐานข้อมูลอย่าง SQL, Oracle ครับ",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.753
+    },
+    {
+      "id": 6,
+      "start": 40.98,
+      "end": 48.55,
+      "text": "สิ่งที่ทำให้ผมสนุกกับการทำงาน คือการได้หยิบจุดจริงมาเปลี่ยนเป็น solution ที่จับต้องได้",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.753
+    },
+    {
+      "id": 7,
+      "start": 48.55,
+      "end": 58.71,
+      "text": "ตั้งแต่การวิกลอข้อมูล การ train โมเดล ไปจนถึงการขึ้นเป็น Application ให้ผู้ใช้งานเข้าถึงได้ง่ายครับ",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.753
+    },
+    {
+      "id": 8,
+      "start": 58.71,
+      "end": 66.71,
+      "text": "มี project หนึ่งที่ผมทำโมเดล พยากรข้อมูลสภาพเวลโรบ Time Series Forecasting",
+      "avg_logprob": -0.15,
+      "no_speech_prob": 0.144
+    },
+    {
+      "id": 9,
+      "start": 66.71,
+      "end": 72.34,
+      "text": "เพื่อนำไปแสดงผลบน Web Application ครับ",
+      "avg_logprob": -0.15,
+      "no_speech_prob": 0.144
+    },
+    {
+      "id": 10,
+      "start": 72.34,
+      "end": 77.34,
+      "text": "ความท้าทายสำคัญคือ ข้อมูลต่างต้นมีความผลผลสูง",
+      "avg_logprob": -0.15,
+      "no_speech_prob": 0.144
+    },
+    {
+      "id": 11,
+      "start": 77.34,
+      "end": 83.34,
+      "text": "และ missing value ก่อนข้างเยอะ ทำให้ช่วงแรกโมเดลเกิด error สูงมาก",
+      "avg_logprob": -0.15,
+      "no_speech_prob": 0.144
+    },
+    {
+      "id": 12,
+      "start": 83.34,
+      "end": 89.34,
+      "text": "ผมแก้ปัญหาด้วยการทำ data preprocessing ใหม่อย่างเป็นระบบ",
+      "avg_logprob": -0.15,
+      "no_speech_prob": 0.144
+    },
+    {
+      "id": 13,
+      "start": 89.34,
+      "end": 93.5,
+      "text": "ทั้งการ clean ข้อมูล การทำ feature engineering",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 14,
+      "start": 93.5,
+      "end": 96.73,
+      "text": "เพื่อดึงตัวแปรดที่สำพันธ์กับเวลา",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 15,
+      "start": 96.73,
+      "end": 100.73,
+      "text": "และทดลองเพียบเทียบ algorithm หลายตัว",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 16,
+      "start": 100.73,
+      "end": 103.73,
+      "text": "เพื่อหาโมเดลที่แม่นยำและไม่ overfit",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 17,
+      "start": 103.73,
+      "end": 108.85,
+      "text": "จากนั้น ถึงนำโมเดลไป deploy ผ่าน Web UI",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 18,
+      "start": 108.85,
+      "end": 114.85,
+      "text": "ให้ผู้ใช้งานสามารถกลอก parameter แล้ว เห็นผลเผยากรได้ทันที",
+      "avg_logprob": -0.147,
+      "no_speech_prob": 0.021
+    },
+    {
+      "id": 19,
+      "start": 118.38,
+      "end": 122.38,
+      "text": "โปรเจคนี้ทำให้ผมเข้าใจทั้งกระววนการ prepare data",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 20,
+      "start": 122.38,
+      "end": 127.38,
+      "text": "การปรับแต่งโมเดล และการคำดึงถึง user experience",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 21,
+      "start": 127.38,
+      "end": 129.38,
+      "text": "ในการแสดงผลข้อมูลครับ",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 22,
+      "start": 129.38,
+      "end": 136.77,
+      "text": "ผมมองว่าในสายงาน technology",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 23,
+      "start": 136.77,
+      "end": 142.12,
+      "text": "การเปลี่ยนแปลงเครื่องมือเป็นเรื่องปกติครับ",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 24,
+      "start": 142.12,
+      "end": 148.47,
+      "text": "วิธีการของผมคือนิ้นตามความเข้าใจ fundamental ของเครื่องมือ",
+      "avg_logprob": -0.125,
+      "no_speech_prob": 0.507
+    },
+    {
+      "id": 25,
+      "start": 149.76,
+      "end": 152.79,
+      "text": "เช่น ถ้าต้องการใช้ framework ใหม่",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 26,
+      "start": 152.79,
+      "end": 157.79,
+      "text": "ผมจะดู architecture และ data flow ของมันเป็นอันดับแรก",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 27,
+      "start": 157.79,
+      "end": 163.79,
+      "text": "จากนั้นลองสร้างจนเล็ก ๆ เพื่อทำ prototype ทดสอบทันที",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 28,
+      "start": 163.79,
+      "end": 167.98,
+      "text": "ส่วนการทำงานร่วมกับ team",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 29,
+      "start": 167.98,
+      "end": 171.98,
+      "text": "ผมให้ความสำคัญกับการสื่อสารที่ตรงประเด็น",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 30,
+      "start": 171.98,
+      "end": 175.39,
+      "text": "Clear and Concise",
+      "avg_logprob": -0.134,
+      "no_speech_prob": 0.77
+    },
+    {
+      "id": 31,
+      "start": 175.39,
+      "end": 179.39,
+      "text": "ไม่ลังเลที่จะถามเมื่อติดปัญหาเชิงโคงสร้าง",
+      "avg_logprob": -0.107,
+      "no_speech_prob": 0.775
+    },
+    {
+      "id": 32,
+      "start": 179.39,
+      "end": 184.84,
+      "text": "และคอย update ความคืบหน้าร่วมถึงจุดที่ติดคัด",
+      "avg_logprob": -0.107,
+      "no_speech_prob": 0.775
+    },
+    {
+      "id": 33,
+      "start": 184.84,
+      "end": 187.84,
+      "text": "ให้ทุกคนเห็นภาพตรงกันเสมอ",
+      "avg_logprob": -0.107,
+      "no_speech_prob": 0.775
+    },
+    {
+      "id": 34,
+      "start": 187.84,
+      "end": 191.84,
+      "text": "เพื่อให้งานเดินหน้าต่อได้ด้วยไม่เสีย",
+      "avg_logprob": -0.107,
+      "no_speech_prob": 0.775
+    },
+    {
+      "id": 35,
+      "start": 191.84,
+      "end": 194.87,
+      "text": "ขอบคุณมากสำหรับโอกาสในวันนี้ครับ",
+      "avg_logprob": -0.107,
+      "no_speech_prob": 0.775
+    }
+  ],
+  "audio_duration_sec": 200.3,
+  "processing_time_sec": 21.97
+}
